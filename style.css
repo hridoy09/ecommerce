@@ -61,3 +61,10 @@ form.example::after {
 	list-style: none;
 
 }
+.top-icon>a{
+	color: black!important;
+	text-decoration: none!important;
+}
+.top-icon>a>li{
+	font-size: 30px;
+}
