@@ -1,89 +1,134 @@
-body{
-	background: #f1f1f1!important;
+body {
+    background: #f1f1f1!important;
 }
-ul{
-	margin-bottom: 0px!important;
+
+ul {
+    padding: 0px !important;
+    margin-bottom: 0px!important;
 }
-li{
-	list-style: none;
+
+li {
+    list-style: none;
 }
-a{
-	text-decoration: none!important;
+
+a {
+    text-decoration: none!important;
 }
+
 .example {
     outline: 0px dotted #333!important;
 }
-.container-fluid{
-	margin: 0px!important;
-	padding:0px!important;
+
+.container-fluid {
+    margin: 0px!important;
+    padding: 0px!important;
 }
-.row{
-	margin: 0px!important ;
-	padding:12px 0px!important;
-	align-items: center;
+
+.row {
+    margin: 0px!important;
+    padding: 12px 0px!important;
+    
 }
-.top-nav{
-background-color: #6AC628;
-height: 55px;
+
+.top-nav {
+    background-color: #6AC628;
+    height: 55px;
 }
-.top-contact{
-	margin: 0px;
-	padding: 0px;
-	color: white;
+
+.top-contact {
+    margin: 0px;
+    padding: 0px;
+    color: white;
 }
 
 form.example input[type=text] {
-  padding: 10px;
-  font-size: 17px;
-  border: 1px solid grey;
-  float: left;
-  width: 80%;
-  background: white;
-  outline: 0px dotted #333!important;
-
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: white;
+    outline: 0px dotted #333!important;
 }
 
 form.example button {
-  float: left;
-  width: 20%;
-  padding: 10px;
-  background: #5E2596;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-  color: white;
-  font-size: 17px;
-  border: 1px solid grey;
-  border-left: none;
-  cursor: pointer;
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #5E2596;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
 }
-
 
 form.example::after {
-  content: "";
-  clear: both;
-  display: table;
+    content: "";
+    clear: both;
+    display: table;
 }
-.top-icon{
-	display:flex;
-	justify-content: end;
-}
-.top-icon li{
-	padding: 0px 10px;
 
+.top-icon {
+    display: flex;
+    justify-content: end;
 }
-.top-icon>a{
-	color: #5E2596!important;
-	
+
+.top-icon li {
+    padding: 0px 10px;
 }
-.top-icon>a>li{
-	font-size: 30px;
+
+.top-icon>a {
+    color: #5E2596!important;
 }
+
+.top-icon>a>li {
+    font-size: 30px;
+}
+
+
 /*---- main-nav---- */
-.main-nav{
-  background-color: #6AC628;
+
+.main-nav {
+    background-color: #6AC628;
 }
-.mainNav-ul>a{
-	color: white!important;
-	font-size: 16px;
+
+.mainNav-ul>a {
+    color: white!important;
+    font-size: 16px;
+}
+
+
+/* ----sideNav-ul -----*/
+
+.sideNav-ul>ul {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.sideNav-ul>ul>a>li {
+    padding: 10px !important;
+}
+
+.sideNav-ul>ul>a {
+    color: black;
+}
+
+.sideNav-span {
+    float: right;
+    margin-right: 10px;
+}
+
+.sideNav-ul>ul>a:hover li {
+    color: white !important;
+    background-color: black !important;
+}
+.marquee{
+	display: flex;
+	align-items: center;
+	height: 50px;
+	border:1px solid  #5E2596;
+	border-radius: 5px;
 
 }
