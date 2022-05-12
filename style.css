@@ -2,6 +2,7 @@ body{
 	background: #f1f1f1!important;
 }
 ul{
+  padding: 0px !important;
 	margin-bottom: 0px!important;
 }
 li{
@@ -85,5 +86,24 @@ form.example::after {
 .mainNav-ul>a{
 	color: white!important;
 	font-size: 16px;
-	padding: 0px 25px
+}
+
+/* ----sideNav-ul -----*/
+
+.sideNav-ul>ul{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.sideNav-ul>ul>a>li{
+  padding:10px !important;
+}
+.sideNav-ul>ul>a{
+  color: black;
+}
+.sideNav-span{
+  float: right;
+  margin-right: 10px;
+}
+.sideNav-ul>ul>a:hover li{
+  color: white !important;
+  background-color: black !important;
 }
