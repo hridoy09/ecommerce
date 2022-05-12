@@ -1,7 +1,15 @@
 body{
 	background: #f1f1f1!important;
 }
-
+ul{
+	margin-bottom: 0px!important;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none!important;
+}
 .example {
     outline: 0px dotted #333!important;
 }
@@ -23,12 +31,7 @@ height: 55px;
 	padding: 0px;
 	color: white;
 }
-ul{
-	margin-bottom: 0px!important;
-}
-li{
-	list-style: none;
-}
+
 form.example input[type=text] {
   padding: 10px;
   font-size: 17px;
@@ -70,8 +73,17 @@ form.example::after {
 }
 .top-icon>a{
 	color: #5E2596!important;
-	text-decoration: none!important;
+	
 }
 .top-icon>a>li{
 	font-size: 30px;
+}
+/*---- main-nav---- */
+.main-nav{
+  background-color: #6AC628;
+}
+.mainNav-ul>a{
+	color: white!important;
+	font-size: 16px;
+	padding: 0px 25px
 }
