@@ -209,6 +209,13 @@ form.example::after {
 .brand-item>a>img{
   width: 100%;
 }
+.brand-name-p1{
+  color: black;
+  padding: 10px;
+  margin: 0px;
+  text-align: center;
+  font-weight: bold;
+}
 .brand-item{
 	border:1px solid black;
 	padding: 5px;
@@ -219,7 +226,7 @@ form.example::after {
 .store-name{
   text-align: center;
   padding: 15px;
-  font-weight: bold;
+  font-weight: normal;
   color: black !important;
 }
 
@@ -301,4 +308,9 @@ form.example::after {
 .footer-link-a>span:hover:after {
   transform: scaleX(1);
   transform-origin: top left;
+}
+.footer-4{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
 }
