@@ -159,12 +159,18 @@ form.example::after {
 }
 .cententSec2-header>h3{
   display: inline-block;
-  padding: 10px;
+  margin: 0px;
+  line-height: 2.2;
+
 }
 .cententSec2-header>span{
   float: right;
-  padding: 20px 50px 0px 0px;
+  padding: 17px 50px 0px 0px;
   color: rgb(2, 2, 2);
+}
+.cententSec2-header>span>a{
+ color: black;
+ margin-right: 20px;
 }
 .cententSec2-slider{
   width: 100%;
@@ -190,7 +196,7 @@ form.example::after {
 
 /* -----contentSec2-store------- */
 .contenrSec2-store{
-  width: 90%;
+  width: 100%;
   margin: auto !important;
 }
 .grid-store{
@@ -199,11 +205,16 @@ form.example::after {
   grid-template-columns: repeat(auto-fit, minmax(170px,1fr));
   grid-gap: 20px;
 }
-.brand-item{
-  border: 1px solid rgba(78, 78, 78, 0.363);
-}
+
 .brand-item>a>img{
   width: 100%;
+}
+.brand-item{
+	border:1px solid black;
+	padding: 5px;
+}
+.brand-addidas{
+	border:none!important;
 }
 .store-name{
   text-align: center;
@@ -212,4 +223,43 @@ form.example::after {
   color: black !important;
 }
 
+.uk-overlay-default{
+	background-color: white!important;
+}
 
+.icon-p{
+	    padding: 7px 10px;
+   	margin: 0px 10px;
+    border-radius: 50%;
+
+}
+.icon-p:hover{
+	    padding: 7px 10px;
+    background: black;
+    border-radius: 50%;
+    color: white!important;
+}
+.icon-pi:hover{
+	color: white!important;
+}
+.uk-margin-small-top>a{
+	color:#007bff!important;
+}
+.uk-margin-small-top>a:hover{
+	color:black!important;
+}
+.checked {
+  color: orange;
+}
+.card-b:hover{
+	border:1px solid #00000033;
+
+}
+.card-b{
+	border:1px solid #F8F7F7;
+}
+
+.uk-margin-small-top{
+	margin: 0px!important;
+	padding: 0px!important;
+}
