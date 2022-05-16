@@ -1,0 +1,19 @@
+@media only screen and (max-width: 1024px){
+	.top-nav{
+		display: none;
+	}
+	.top-middle{
+		display: none;
+	}
+	.main-nav{
+		display: none;
+	}
+	.sideNav-ul{
+		display: none;
+	}
+	.top-icon>a>li {
+    font-size: 20px;
+    color: white;
+}
+
+}
