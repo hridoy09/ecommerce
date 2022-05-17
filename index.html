@@ -16,10 +16,10 @@
       <div class="container-fluid">
          <div class="top-nav">
             <div class="row">
-               <div class="col-4 col-sm-3 top-title">
+               <div class="col-4 col-sm-4 top-title">
                   <p class="top-contact"><i class="fas fa-phone-square-alt"></i> +8801717-462865 <span><i class="fas fa-envelope"></i> Support@online.welkinia.com</span></p>
                </div>
-               <div class="col-8 col-sm-9 top-title">
+               <div class="col-8 col-sm-8 top-title">
                   <ul class=" d-flex justify-content-around my-auto mainNav-ul">
                      <a href="#">
                         <li>Customer Care/Support Center</li>
@@ -122,12 +122,13 @@
             </div>
          </div>
 
-         <div class="row mobile-nav" style="background-color: #6AC628;">
+         <div class="row mobile-nav" style="background-color: #6AC628; display: none;">
+             
             <div class="col-3">
                   <img src="Logo-01-gjjghfukgj.png.webp" />
             </div>
             <div class="col-9">
-               <ul class="top-icon">
+                  <ul class="top-icon">
                      <a href="">
                         <li><i class="far fa-heart"></i><sub>0</sub></li>
                      </a>
@@ -137,28 +138,66 @@
                      <a href="">
                         <li><i class="fas fa-user"></i></li>
                      </a>
-               </ul>
+                     <a href="">
+                        <li><i class="fas fa-dollar-sign"></i></li>
+                     </a>
+                     <a href="">
+                        <li><i class="fas fa-language"></i></li>
+                     </a>
+                   
+                  </ul>
             </div>
              <div class="col-6">
-               <button class="uk-button uk-button-default uk-margin-small-right" type="button" uk-toggle="target: #offcanvas-usage">Open</button>
+               <button class="togle-btn" type="button" uk-toggle="target: #offcanvas-usage"><i class="fas fa-bars"></i></button>
 
 
 
                
 <div id="offcanvas-usage" uk-offcanvas>
-    <div class="uk-offcanvas-bar">
+    <div class="uk-offcanvas-bar" style="background:white;color:black;">
 
-        <button class="uk-offcanvas-close" type="button" uk-close></button>
+        <button class="uk-offcanvas-close" style="color: black;" type="button" uk-close></button>
 
-        <h3>Title</h3>
+      <ul class="  justify-content-around my-auto side-bar">
+                     <a href="#">
+                        <li>All Shop</li>
+                     </a>
+                     <a href="#">
+                        <li>Retail</li>
+                     </a>
+                     <a href="#">
+                        <li>Wholesale</li>
+                     </a>
+                     <a href="#">
+                        <li>Commercial</li>
+                     </a>
+                     <a href="#">
+                        <li>Bizzle Offer</li>
+                     </a>
+                     <a href="#">
+                        <li>Gift Offer</li>
+                     </a>
+                     <a href="#">
+                        <li>Membership</li>
+                     </a>
+                     <a href="#">
+                        <li>News</li>
+                     </a>
+                     <a href="#">
+                        <li>help</li>
+                     </a>
+                  </ul>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
 
     </div>
 </div>
             </div>
             <div class="col-6">
-               
+               <form class="example" action="/action_page.php">
+                     <input type="text" placeholder="Search.." name="search">
+                     <button type="submit">Search</button>
+                  </form>
             </div>
             
             
@@ -247,7 +286,7 @@
                      <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
                   </div>
                   <div class="row">
-                     <div class="col-sm-6 col-lg-6" style="padding-left: 0px!important;">
+                     <div class=" col-6 col-sm-6 col-lg-6" style="padding-left: 0px!important;">
                         <div style="margin-top: 10px;" id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                            <div class="carousel-inner">
                               <div class="carousel-item active">
@@ -259,7 +298,7 @@
                            </div>
                         </div>
                      </div>
-                     <div class="col-sm-6 col-lg-6" style="padding-right:0px!important;">
+                     <div class=" col-6 col-sm-6 col-lg-6" style="padding-right:0px!important;">
                         <div style="margin-top: 10px;" id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                            <div class="carousel-inner">
                               <div class="carousel-item active">
@@ -314,7 +353,7 @@
                         <div class="uk-panel">
                            <img src="sliderImg.jpeg" width="100%"  alt="">
                            <div class="uk-position-center uk-panel">
-                              <h1>1</h1>
+                             
                            </div>
                         </div>
                      </li>
@@ -322,7 +361,7 @@
                         <div class="uk-panel">
                            <img src="sliderImg.jpeg" width="100%"  alt="">
                            <div class="uk-position-center uk-panel">
-                              <h1>2</h1>
+                            
                            </div>
                         </div>
                      </li>
@@ -330,7 +369,7 @@
                         <div class="uk-panel">
                            <img src="sliderImg.jpeg" width="100%"  alt="">
                            <div class="uk-position-center uk-panel">
-                              <h1>3</h1>
+                             
                            </div>
                         </div>
                      </li>
@@ -338,7 +377,7 @@
                         <div class="uk-panel">
                            <img src="sliderImg.jpeg" width="100%"  alt="">
                            <div class="uk-position-center uk-panel">
-                              <h1>4</h1>
+                            
                            </div>
                         </div>
                      </li>
@@ -346,7 +385,7 @@
                         <div class="uk-panel">
                            <img src="sliderImg.jpeg" width="100%"  alt="">
                            <div class="uk-position-center uk-panel">
-                              <h1>5</h1>
+                              
                            </div>
                         </div>
                      </li>
@@ -354,7 +393,7 @@
                         <div class="uk-panel">
                            <img src="sliderImg.jpeg" width="100%"  alt="">
                            <div class="uk-position-center uk-panel">
-                              <h1>6</h1>
+                           
                            </div>
                         </div>
                      </li>
@@ -362,7 +401,7 @@
                         <div class="uk-panel">
                            <img src="sliderImg.jpeg" width="100%"  alt="">
                            <div class="uk-position-center uk-panel">
-                              <h1>7</h1>
+                             
                            </div>
                         </div>
                      </li>
@@ -370,7 +409,7 @@
                         <div class="uk-panel">
                            <img src="sliderImg.jpeg" width="100%"  alt="">
                            <div class="uk-position-center uk-panel">
-                              <h1>8</h1>
+                            
                            </div>
                         </div>
                      </li>
@@ -378,7 +417,7 @@
                         <div class="uk-panel">
                            <img src="sliderImg.jpeg" width="100%" alt="">
                            <div class="uk-position-center uk-panel">
-                              <h1>9</h1>
+                              
                            </div>
                         </div>
                      </li>
@@ -386,7 +425,7 @@
                         <div class="uk-panel">
                            <img src="sliderImg.jpeg" width="100%"  alt="">
                            <div class="uk-position-center uk-panel">
-                              <h1>10</h1>
+                             
                            </div>
                         </div>
                      </li>
@@ -412,7 +451,7 @@
                         <div class="uk-panel">
                            <img src="sliderImg.jpeg" width="100%"  alt="">
                            <div class="uk-position-center uk-panel">
-                              <h1>1</h1>
+                            
                            </div>
                         </div>
                      </li>
@@ -420,7 +459,7 @@
                         <div class="uk-panel">
                            <img src="sliderImg.jpeg" width="100%"  alt="">
                            <div class="uk-position-center uk-panel">
-                              <h1>2</h1>
+                            
                            </div>
                         </div>
                      </li>
@@ -428,7 +467,7 @@
                         <div class="uk-panel">
                            <img src="sliderImg.jpeg" width="100%"  alt="">
                            <div class="uk-position-center uk-panel">
-                              <h1>3</h1>
+                             
                            </div>
                         </div>
                      </li>
@@ -436,7 +475,7 @@
                         <div class="uk-panel">
                            <img src="sliderImg.jpeg" width="100%"  alt="">
                            <div class="uk-position-center uk-panel">
-                              <h1>4</h1>
+                          
                            </div>
                         </div>
                      </li>
@@ -444,7 +483,7 @@
                         <div class="uk-panel">
                            <img src="sliderImg.jpeg" width="100%"  alt="">
                            <div class="uk-position-center uk-panel">
-                              <h1>5</h1>
+                            
                            </div>
                         </div>
                      </li>
@@ -452,7 +491,7 @@
                         <div class="uk-panel">
                            <img src="sliderImg.jpeg" width="100%"  alt="">
                            <div class="uk-position-center uk-panel">
-                              <h1>6</h1>
+                          
                            </div>
                         </div>
                      </li>
@@ -460,7 +499,7 @@
                         <div class="uk-panel">
                            <img src="sliderImg.jpeg" width="100%"  alt="">
                            <div class="uk-position-center uk-panel">
-                              <h1>7</h1>
+                         
                            </div>
                         </div>
                      </li>
@@ -476,7 +515,7 @@
                         <div class="uk-panel">
                            <img src="sliderImg.jpeg" width="100%" alt="">
                            <div class="uk-position-center uk-panel">
-                              <h1>9</h1>
+                            
                            </div>
                         </div>
                      </li>
@@ -484,7 +523,7 @@
                         <div class="uk-panel">
                            <img src="sliderImg.jpeg" width="100%"  alt="">
                            <div class="uk-position-center uk-panel">
-                              <h1>10</h1>
+                            
                            </div>
                         </div>
                      </li>

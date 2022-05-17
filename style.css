@@ -329,3 +329,18 @@ background: linear-gradient(90deg, rgba(94,37,150,1) 35%, rgba(122,21,222,1) 100
   flex-direction: column;
   text-align: left;
 }
+.togle-btn{
+  background: inherit!important;
+  border: none;
+  font-size: 25px;
+  color: white;
+}
+.side-bar a{
+
+  color: black!important;
+  font-family: 'Cormorant Garamond', serif;
+font-family: 'Noto Serif', serif;
+}
+.side-bar>a>li{
+  padding: 15px 0px;
+}

@@ -15,5 +15,33 @@
     font-size: 20px;
     color: white;
 }
+.mobile-nav{
+	display: flex!important;
+}
+.cententSec2-header>h3{
+	font-size: 4vw;
+}
+.cententSec2-header>button{
+	 margin-top:10px;
+}
 
+}
+
+@media only screen and (max-width:913px){
+	.cententSec2-header>h3{
+	font-size: 3vw;
+}
+/*	.cententSec2-header>button{
+	 margin-top:10px;
+}*/
+}
+@media only screen and (max-width: 540px){
+	.cententSec2-header>button{
+	 margin-top:0px;
+}
+}
+@media only screen and (max-width: 420px){
+	.cententSec2-header>button{
+	 margin-top:0px;
+}
 }
