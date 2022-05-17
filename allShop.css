@@ -1,5 +1,5 @@
 body {
-    background: #f1f1f1!important;
+    background: #FFFFFF !important;
 }
 
 ul {
@@ -32,7 +32,7 @@ a {
 
 
 .category_home {
-    width: 90%;
+    width: 95%;
     margin: auto;
     margin-top: 1%;
 }
@@ -46,18 +46,27 @@ a {
     display: flex;
 }
 .cotegories-name{
-    width: 60%;
-    display: flex;
-    flex-direction: column;
+    width: 100%;
+    background-color: #F5F5F5;
+    padding: 20px 20px 20px 20px;
 }
+.cotegories-name2>ul>a>li{
+    padding: 5px;
+    color: black !important;
+}
+.brandSec{
+    margin-top: 40px;
+    width: 100%;
+    background-color: #F5F5F5;
+    padding: 20px 20px 20px 20px;
+}
+
 .Related_Categories_brand {
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    float: left;
+    width: 100%;
     height: 140px;
     color: #353535;
     overflow: auto;
+    padding: 0px;
 }
 ::-webkit-scrollbar {
     width: 10px;
@@ -79,7 +88,7 @@ a {
   }
 
 .Related_Categories_service {
-    width: 60%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     float: left;
@@ -88,7 +97,7 @@ a {
 }
 
 .Related_Categories_location {
-    width: 60%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     float: left;
@@ -109,7 +118,7 @@ a {
 }
 
 .Warranty_Type {
-    width: 60%;
+    width: 100%;
     margin-top: 15px;
 }
 
@@ -118,30 +127,18 @@ a {
 }
 
 .Warranty_period {
-    width: 60%;
+    width: 100%;
     margin-top: 15px;
     color: #353535;
 }
-
+.color_family{
+    width: 100%;
+    height: 150px;
+    overflow: auto;
+}
 .color_family>p {
     color: #353535;
     margin-bottom: 0%;
-}
-
-#collapseButton {
-    color: #353535 !important;
-    background-color: white !important;
-    border: 0px solid #4e4e4e !important;
-    padding: 5px;
-}
-
-.collapse {
-    padding: 5px 0px 5px 0px !important;
-}
-
-#collapsible>p {
-    margin-bottom: 0%;
-    color: #353535;
 }
 
 .Related_Categories_brand>input:hover {
@@ -150,7 +147,7 @@ a {
 
 .priceSlider {
     margin-top:10px;
-    width: 60%;
+    width: 100%;
 }
 
 .priceSlider h1 {
@@ -226,104 +223,38 @@ a {
     cursor: pointer;
 }
 
-.fa-star {
-    color: rgb(185, 185, 185);
+.filterBtn{
+    color: #ffffff !important;
+    background-color: #000000 !important;
+    width: 100%;
+    border-radius: 0% !important;
+    margin-top: 2pc;
 }
 
-.checked {
-    color: #ffd900;
+.filterBtn-text{
+    font-size: medium;
+    font-weight: bold;
+    padding: 6px;
+    margin-bottom: 0px;
 }
 
 
-
-.sort_by {
-    display: flex;
+.category_name_sec{
+    background-color: #F5F5F5;
 }
-
-.sortbtn {
-    color: #353535;
-    font-size: 13px;
-    border: none;
-    padding: 0px 15px 0px 15px;
-    cursor: pointer;
-    border: 1px solid #353535;
-    background-color: white;
+.SortingNav{
+    width: 100%;
 }
-
-.sortbtn>i {
-    padding-left: 10px;
+.SortingBtn{
+    width: 70%;
+    background-color: white !important;
 }
-
-.sortdown {
-    position: relative;
-    display: inline-block;
-}
-
-.sortdown-content {
-    margin-top: 35px;
-    margin-left: 26px;
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: rgba(29, 30, 31, 0.8) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-    z-index: 1;
-}
-
-.sortdown-content a {
+.fa-angle-down{
+    font-size: 20px;
     color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
+    z-index: 5;
 }
-
-.sortdown-content a:hover {
-    background-color: #ddd
-}
-
-.show {
-    display: block;
-}
-
-.grid1 {
-    display: flex;
-}
-
-.main1 {
-    margin: 0;
-}
-
-.btn.btn-success {
-    background-color: #353535 !important;
-    color: #fafafa !important;
-}
-
-ul>li>a {
-    color: #353535;
-}
-
-a:focus,
-a:hover {
-    color: #353535;
-}
-
-.nav-pills>li.active>a,
-.nav-pills>li.active>a:focus,
-.nav-pills>li.active>a:hover {
-    color: #fff;
-    background-color: #353535;
-}
-
-.grid_view {
+.navSort{
     width: 60%;
-    display: flex;
-    gap: 1px;
-    flex-wrap: wrap;
-    margin-top: 10px;
-    padding-left: 10px;
-}
-
-.searchBtn{
-    width: 60% !important;
-    margin: 20px 0px 15px 0px;
+    background-color: white !important;
 }

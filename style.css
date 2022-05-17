@@ -232,8 +232,11 @@ background: linear-gradient(90deg, rgba(94,37,150,1) 35%, rgba(122,21,222,1) 100
   font-weight: bold;
 }
 .brand-item{
-	border:1px solid black;
+	border:1px solid rgba(255, 255, 255, 0);
 	padding: 5px;
+}
+.brand-item:hover{
+  border:1px solid rgba(102, 102, 102, 0.39);
 }
 .brand-addidas{
 	border:none!important;

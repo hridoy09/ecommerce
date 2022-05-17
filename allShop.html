@@ -115,22 +115,36 @@
                </div>
             </div>
          </div>
+         <div class="allShop-slider ">
+            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="ratio: 7:2.3;autoplay: true;autoplay-interval: 4000; animation: push">
+                <ul class="uk-slideshow-items">
+                   <li>
+                      <img src="banner.png" alt="" uk-cover>
+                   </li>
+                   <li>
+                      <img src="banner2.png" alt="" uk-cover>
+                   </li>
+                   <li>
+                      <img src="banner.png" alt="" uk-cover>
+                   </li>
+                </ul>
+                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+             </div>
+         </div>
          <div class="category_home">
             <div class="category_flow">
                 <p style="margin-bottom:0;">home <span>/ shop</span> </p>
             </div>           
             <div class="category_sec_all-1 row">
-                <div class="Related_Categories col-3">
-                    <p>Related Categories</p>
-                    <p style="color: #118961; font-size: small;">Brand</p>
-                    <div>
+                <div class="Related_Categories col-lg-2">
                     <div class="cotegories-name">
                         <h5>
                             CATEGORIES
                         </h5>
-                        <div class="cotegories-name2">
+                        <div class="cotegories-name2 ">
                             <ul>
-                                <a href="#">
+                                <a class="text-nowrap" href="#">
                                     <li>Electrical & Accessories</li>
                                 </a>
                                 <a href="#">
@@ -166,13 +180,13 @@
                                 <a href="#">
                                     <li>Pharmacy</li>
                                 </a>
-                                <a href="#">
+                                <a class="text-nowrap" href="#">
                                     <li>Service & Others</li>
                                 </a>
                                 <a href="#">
                                     <li>Smart Phone</li>
                                 </a>
-                                <a href="#">
+                                <a class="text-nowrap" href="#">
                                     <li>Smart TV & Android TV</li>
                                 </a>
                                 <a href="#">
@@ -187,183 +201,536 @@
                             </ul>
                         </div>
                     </div>
-                    <h5 style="margin-top:20px;">BY BRANDS</h5>
-                    <div class="input-group rounded searchBtn">
-                        <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
-                        <span class="input-group-text border-0" id="search-addon">
-                          <i class="fas fa-search"></i>
-                        </span>
-                      </div>
-                    <div class="Related_Categories_brand">
-                        
-                        <p><input type="checkbox" name="check" onclick="onlybrand(this)"> <span>Brand</span> </p>
-                        <p><input type="checkbox" name="check" onclick="onlybrand(this)"> <span>Brand</span> </p>
-                        <p><input type="checkbox" name="check" onclick="onlybrand(this)"> <span>Brand</span> </p>
-                        <p><input type="checkbox" name="check" onclick="onlybrand(this)"> <span>Brand</span> </p>
-                        <p><input type="checkbox" name="check" onclick="onlybrand(this)"> <span>Brand</span> </p>
-                        <p><input type="checkbox" name="check" onclick="onlybrand(this)"> <span>Brand</span> </p>
-                        <p><input type="checkbox" name="check" onclick="onlybrand(this)"> <span>Brand</span> </p>
-                        <p><input type="checkbox" name="check" onclick="onlybrand(this)"> <span>Brand</span> </p>
-                        <p><input type="checkbox" name="check" onclick="onlybrand(this)"> <span>Brand</span> </p>
-                        <p><input type="checkbox" name="check" onclick="onlybrand(this)"> <span>Brand</span> </p>
-                        <p><input type="checkbox" name="check" onclick="onlybrand(this)"> <span>Brand</span> </p>
-    
-                    </div>
-                    <div class="Related_Categories_location">
-                        <p>Location</p>
-                        <p><input type="checkbox" name="check2" onclick="onlylocation(this)"> <span>Bangladesh</span> </p>
-                        <p><input type="checkbox" name="check2" onclick="onlylocation(this)"> <span>Qatar</span> </p>
-                    </div>
-    
-                    
-                    <div class="priceSlider">
-                        <h1>Price Range:</h1>
-                        <div class="min-max-range">
-                            <input type="range" min="0" max="5000" value="2000" class="range" id="min">
-                            <input type="range" min="5001" max="10000" value="8000" class="range" id="max">
-                        </div>
-                        <div class="min-max">
+                    <div class="brandSec">
+                        <h5 style="margin-top:20px;">BY BRANDS</h5>
+                        <form style="margin:15px 0px 15px 0px ; background-color: white;" class="uk-search uk-search-default">
+                            <span class="uk-search-icon-flip" uk-search-icon></span>
+                            <input class="uk-search-input" type="search" placeholder="Search">
+                        </form>
+                        <div class="Related_Categories_brand">
                             
-                            <div class="min">
-                                <span>Price</span><span id="min-value"></span>
+                            <p><input type="checkbox" name="check" onclick="onlybrand(this)"> <span>Brand</span> </p>
+                            <p><input type="checkbox" name="check" onclick="onlybrand(this)"> <span>Brand</span> </p>
+                            <p><input type="checkbox" name="check" onclick="onlybrand(this)"> <span>Brand</span> </p>
+                            <p><input type="checkbox" name="check" onclick="onlybrand(this)"> <span>Brand</span> </p>
+                            <p><input type="checkbox" name="check" onclick="onlybrand(this)"> <span>Brand</span> </p>
+                            <p><input type="checkbox" name="check" onclick="onlybrand(this)"> <span>Brand</span> </p>
+                            <p><input type="checkbox" name="check" onclick="onlybrand(this)"> <span>Brand</span> </p>
+                            <p><input type="checkbox" name="check" onclick="onlybrand(this)"> <span>Brand</span> </p>
+                            <p><input type="checkbox" name="check" onclick="onlybrand(this)"> <span>Brand</span> </p>
+                            <p><input type="checkbox" name="check" onclick="onlybrand(this)"> <span>Brand</span> </p>
+                            <p><input type="checkbox" name="check" onclick="onlybrand(this)"> <span>Brand</span> </p>
+        
+                        </div>
+                        <hr style="color: rgb(92, 92, 92); margin-top:30px;">
+                        <div class="priceSlider">
+                            <h4>BY PRICE</h4>
+                            <div class="min-max-range">
+                                <input type="range" min="0"  max="5000" value="2000" class="range" id="min">
+                                <input type="range" min="5001" max="10000" value="8000" class="range" id="max">
                             </div>
-                            <div class="max">
-                                <span id="max-value"></span>
+                            <div class="min-max">
+                                
+                                <div class="min">
+                                    <span>Price</span><span id="min-value">&#2547;</span>
+                                </div>
+                                <div class="max">
+                                    <span id="max-value">&#2547;</span>
+                                </div>
                             </div>
-                        </div>
+                            <button class="btn filterBtn">
+                                <p class="filterBtn-text">filter</p>
+                            </button>
+                            <div style="clear: both;"></div>
     
-                        <div style="clear: both;"></div>
+                        </div>
+                        <hr style="color: rgb(92, 92, 92); margin-top:30px;">
+                        <div class="color_family">
+                            <p style="color: #5e5e5e;">BY COLOR</p>
+                            <p><input type="checkbox" name="color" onclick="onlycolor(this)"> <span>color</span> </p>
+                            <p><input type="checkbox" name="color" onclick="onlycolor(this)"> <span>color</span> </p>
+                            <p><input type="checkbox" name="color" onclick="onlycolor(this)"> <span>color</span> </p>
+                            <p><input type="checkbox" name="color" onclick="onlycolor(this)"> <span>color</span> </p>
+                            <p><input type="checkbox" name="color" onclick="onlycolor(this)"> <span>color</span> </p>
+                            <p><input type="checkbox" name="color" onclick="onlycolor(this)"> <span>color</span> </p>
+                            <p><input type="checkbox" name="color" onclick="onlycolor(this)"> <span>color</span> </p>
+                            <p><input type="checkbox" name="color" onclick="onlycolor(this)"> <span>color</span> </p>
+                            <p><input type="checkbox" name="color" onclick="onlycolor(this)"> <span>color</span> </p>
+                            <p><input type="checkbox" name="color" onclick="onlycolor(this)"> <span>color</span> </p>
+                            <p><input type="checkbox" name="color" onclick="onlycolor(this)"> <span>color</span> </p>
+                            <p><input type="checkbox" name="color" onclick="onlycolor(this)"> <span>color</span> </p>
+                            <p><input type="checkbox" name="color" onclick="onlycolor(this)"> <span>color</span> </p>
+                            <p><input type="checkbox" name="color" onclick="onlycolor(this)"> <span>color</span> </p>
+                            <p><input type="checkbox" name="color" onclick="onlycolor(this)"> <span>color</span> </p>
+                            <p><input type="checkbox" name="color" onclick="onlycolor(this)"> <span>color</span> </p>
+                            <div id="collapsible" class="collapse">
+                                
+                            </div>
+        
+                        </div> 
                     </div>
-    
-                    <hr style="color: rgb(92, 92, 92);">
-                    <div class="ratings_star">
-                        <p style="color: #757575;">Ratings</p>
-                        <div class="ratings_star_sec1">
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                        </div>
-                        <div class="ratings_star_sec1">
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star "></span>
-                        </div>
-                        <div class="ratings_star_sec1">
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star "></span>
-                            <span class="fa fa-star "></span>
-                        </div>
-                        <div class="ratings_star_sec1">
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star "></span>
-                            <span class="fa fa-star "></span>
-                            <span class="fa fa-star "></span>
-                        </div>
-                        <div class="ratings_star_sec1">
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star "></span>
-                            <span class="fa fa-star "></span>
-                            <span class="fa fa-star "></span>
-                            <span class="fa fa-star "></span>
-                        </div>
-    
-    
-                    </div>
-    
-                    <hr style="color: rgb(92, 92, 92); margin-top:10px;">
-                    <div class="color_family">
-                        <p style="color: #891151;">Color family</p>
-                        <p><input type="checkbox" name="color" onclick="onlycolor(this)"> <span>color</span> </p>
-                        <p><input type="checkbox" name="color" onclick="onlycolor(this)"> <span>color</span> </p>
-                        <p><input type="checkbox" name="color" onclick="onlycolor(this)"> <span>color</span> </p>
-                        <p><input type="checkbox" name="color" onclick="onlycolor(this)"> <span>color</span> </p>
-                        <p><input type="checkbox" name="color" onclick="onlycolor(this)"> <span>color</span> </p>
-                        <div id="collapsible" class="collapse">
-                            <p><input type="checkbox" name="color" onclick="onlycolor(this)"> <span>color</span> </p>
-                            <p><input type="checkbox" name="color" onclick="onlycolor(this)"> <span>color</span> </p>
-                            <p><input type="checkbox" name="color" onclick="onlycolor(this)"> <span>color</span> </p>
-                            <p><input type="checkbox" name="color" onclick="onlycolor(this)"> <span>color</span> </p>
-                            <p><input type="checkbox" name="color" onclick="onlycolor(this)"> <span>color</span> </p>
-                            <p><input type="checkbox" name="color" onclick="onlycolor(this)"> <span>color</span> </p>
-                            <p><input type="checkbox" name="color" onclick="onlycolor(this)"> <span>color</span> </p>
-                            <p><input type="checkbox" name="color" onclick="onlycolor(this)"> <span>color</span> </p>
-                            <p><input type="checkbox" name="color" onclick="onlycolor(this)"> <span>color</span> </p>
-                            <p><input type="checkbox" name="color" onclick="onlycolor(this)"> <span>color</span> </p>
-                            <p><input type="checkbox" name="color" onclick="onlycolor(this)"> <span>color</span> </p>
-                        </div>
-                        <button id="collapseButton" type="button" class="buttonMore" data-toggle="collapse" data-target="#collapsible" onclick="changeName()">View more</button>
-    
-                    </div>
-    
-                    <hr style="color: rgb(92, 92, 92); margin-top:10px;">
-                    <div class="Warranty_Type">
-                        <p style="color: #891151;">Warranty Type</p>
-                        <p><input type="checkbox" name="Warranty" onclick="onlywarrenty(this)"> <span>No warrenty</span> </p>
-                        <p><input type="checkbox" name="Warranty" onclick="onlywarrenty(this)"> <span>Brand warrenty</span> </p>
-                    </div>
-                    <hr style="color: rgb(92, 92, 92); margin-top:10px;">
-                    <div class="Warranty_period">
-                        <p style="color: #891151;">Warranty period</p>
-                        <p><input type="checkbox" name="Warranty_period" onclick="onlywarrentyperiod(this)"> <span>Life Time warrenty</span> </p>
-                        <p><input type="checkbox" name="Warranty_period" onclick="onlywarrentyperiod(this)"> <span>1 year warrenty</span> </p>
-                    </div>
+                      
                 </div>
-                
-    
+                <div class="col-1">
                 </div>
-                <div class="category_sec_all-2 col-9">
+                <div class="category_sec_all-2 col-lg-9 col-sm-12 col-md-12">
                     <div class="category_name_sec row">
-                        <div class="category_name_sec-1 col-8">
-                            <h3 style="padding-left: 10px; margin-top: 0;">Trendy Shoes Collections</h3>
-                            <p style="padding-left: 10px;">6880 items found in Trendy Shoes Collections</p>
+                        <div class="category_name_sec-1 col-6">
+                            <p style="font-weight:bold;" >42 <span style="font-weight: normal;">Products found</span>
+                                
+                            </p>
                         </div>
-                        <div class="category_name_sec-2 col-4">
-                            <div class="sort_by">
-                                <p style="padding-top: 5px; padding-right: 5px;">Sort By :</p>
-                                <button onclick="mySort()" class="sortbtn">Best Match <i class="fas fa-chevron-down "></i> </button>
-                                <div id="sortdown" class="sortdown-content">
-                                    <a href="#">Low to High</a>
-                                    <a href="#"> High to Low</a>
+                        <div class="category_name_sec-2 col-6">
+                            <div class="SortingNav">
+                                <button class="uk-button uk-button-default uk-text-left SortingBtn" type="button">Default sorting
+                                        <img style="float: right;" src="https://img.icons8.com/ios-glyphs/30/000000/expand-arrow--v1.png"/>
+                                </button>
+                                <div uk-dropdown="pos : bottom-center"
+                                class="navSort">
+                            <ul class="uk-nav uk-dropdown-nav">
+                                <li class="uk-active"><a href="#">Active</a></li>
+                                <li><a href="#">Item</a></li>
+                                <li><a href="#">Item</a></li>
+                                <li><a href="#">Item</a></li>
+                                <li><a href="#">Item</a></li>
+                            </ul>
                                 </div>
-                                <div style="width: 30%; " class="container">
-                                    <ul class="nav nav-pills">
-                                        <li class="active"><a data-target="#home" data-toggle="tab"><i style="font-size: 20px;" class=" fa-solid fa-table-columns "></i></a></li>
-    
-                                        <li><a href="#about" data-toggle="tab"><i style="font-size: 20px;" class=" fa-solid fa-table-columns "></i></a></li>
-                                    </ul>
-                                </div>
-    
-    
                             </div>
-    
+                            
                         </div>
     
                     </div>
                     <hr style="color: rgb(92, 92, 92);">
                     <div class="tab-content">
-                        <div class="tab-pane active" id="home">
-                            <div class="grid_view">
-                               
+                        <div class="contentSec2-store" style="margin-top: 30px;">
+                            <div class="grid-store">
+                                <div class="uk-text-center card-b">
+                                    <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                                       <img src="brandIMG.jpeg" width="100%" height="auto" alt="">
+                                       <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+                                          <span class="uk-h4 uk-margin-remove"><span class="" uk-tooltip="Quick View"><a class="icon-p" href=""><i  style="color: black;"class="fas fa-eye icon-pi"></i></a></span></span>
+                                          <span class="uk-h4 uk-margin-remove"><span class="" uk-tooltip="Wishlist"><a class="icon-p" href=""><i  style="color: black;"class="far fa-heart icon-pi"></i></a></span></span>
+                                       </div>
+                                    </div>
+                                    <p class="uk-margin-small-top"><a href="">Herschel Leather Duffle Bag In Brown Color</a></p>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span style="color: black; margin-left: 10px;">01</span>
+                                    <p class="uk-margin-small-top"><a href="">100 &#2547;</a></p>
+                                 </div>
+                                 <div class="uk-text-center card-b">
+                                    <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                                       <img src="brandIMG.jpeg" width="100%" height="auto" alt="">
+                                       <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+                                          <span class="uk-h4 uk-margin-remove"><span class="" uk-tooltip="Quick View"><a class="icon-p" href=""><i  style="color: black;"class="fas fa-eye icon-pi"></i></a></span></span>
+                                          <span class="uk-h4 uk-margin-remove"><span class="" uk-tooltip="Wishlist"><a class="icon-p" href=""><i  style="color: black;"class="far fa-heart icon-pi"></i></a></span></span>
+                                       </div>
+                                    </div>
+                                    <p class="uk-margin-small-top"><a href="">Herschel Leather Duffle Bag In Brown Color</a></p>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span style="color: black; margin-left: 10px;">01</span>
+                                    <p class="uk-margin-small-top"><a href="">100 &#2547;</a></p>
+                                 </div>
+                                 <div class="uk-text-center card-b">
+                                    <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                                       <img src="brandIMG.jpeg" width="100%" height="auto" alt="">
+                                       <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+                                          <span class="uk-h4 uk-margin-remove"><span class="" uk-tooltip="Quick View"><a class="icon-p" href=""><i  style="color: black;"class="fas fa-eye icon-pi"></i></a></span></span>
+                                          <span class="uk-h4 uk-margin-remove"><span class="" uk-tooltip="Wishlist"><a class="icon-p" href=""><i  style="color: black;"class="far fa-heart icon-pi"></i></a></span></span>
+                                       </div>
+                                    </div>
+                                    <p class="uk-margin-small-top"><a href="">Herschel Leather Duffle Bag In Brown Color</a></p>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span style="color: black; margin-left: 10px;">01</span>
+                                    <p class="uk-margin-small-top"><a href="">100 &#2547;</a></p>
+                                 </div>
+                                 <div class="uk-text-center card-b">
+                                    <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                                       <img src="brandIMG.jpeg" width="100%" height="auto" alt="">
+                                       <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+                                          <span class="uk-h4 uk-margin-remove"><span class="" uk-tooltip="Quick View"><a class="icon-p" href=""><i  style="color: black;"class="fas fa-eye icon-pi"></i></a></span></span>
+                                          <span class="uk-h4 uk-margin-remove"><span class="" uk-tooltip="Wishlist"><a class="icon-p" href=""><i  style="color: black;"class="far fa-heart icon-pi"></i></a></span></span>
+                                       </div>
+                                    </div>
+                                    <p class="uk-margin-small-top"><a href="">Herschel Leather Duffle Bag In Brown Color</a></p>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span style="color: black; margin-left: 10px;">01</span>
+                                    <p class="uk-margin-small-top"><a href="">100 &#2547;</a></p>
+                                 </div>
+                                 <div class="uk-text-center card-b">
+                           <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                              <img src="brandIMG.jpeg" width="100%" height="auto" alt="">
+                              <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+                                 <span class="uk-h4 uk-margin-remove"><span class="" uk-tooltip="Quick View"><a class="icon-p" href=""><i  style="color: black;"class="fas fa-eye icon-pi"></i></a></span></span>
+                                 <span class="uk-h4 uk-margin-remove"><span class="" uk-tooltip="Wishlist"><a class="icon-p" href=""><i  style="color: black;"class="far fa-heart icon-pi"></i></a></span></span>
+                              </div>
+                           </div>
+                           <p class="uk-margin-small-top"><a href="">Herschel Leather Duffle Bag In Brown Color</a></p>
+                           <span class="fa fa-star checked"></span>
+                           <span class="fa fa-star checked"></span>
+                           <span class="fa fa-star checked"></span>
+                           <span class="fa fa-star"></span>
+                           <span class="fa fa-star"></span>
+                           <span style="color: black; margin-left: 10px;">01</span>
+                           <p class="uk-margin-small-top"><a href="">100 &#2547;</a></p>
+                        </div>
+                        <div class="uk-text-center card-b">
+                            <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                               <img src="brandIMG.jpeg" width="100%" height="auto" alt="">
+                               <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+                                  <span class="uk-h4 uk-margin-remove"><span class="" uk-tooltip="Quick View"><a class="icon-p" href=""><i  style="color: black;"class="fas fa-eye icon-pi"></i></a></span></span>
+                                  <span class="uk-h4 uk-margin-remove"><span class="" uk-tooltip="Wishlist"><a class="icon-p" href=""><i  style="color: black;"class="far fa-heart icon-pi"></i></a></span></span>
+                               </div>
                             </div>
+                            <p class="uk-margin-small-top"><a href="">Herschel Leather Duffle Bag In Brown Color</a></p>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span style="color: black; margin-left: 10px;">01</span>
+                            <p class="uk-margin-small-top"><a href="">100 &#2547;</a></p>
+                         </div>
+                         <div class="uk-text-center card-b">
+                            <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                               <img src="brandIMG.jpeg" width="100%" height="auto" alt="">
+                               <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+                                  <span class="uk-h4 uk-margin-remove"><span class="" uk-tooltip="Quick View"><a class="icon-p" href=""><i  style="color: black;"class="fas fa-eye icon-pi"></i></a></span></span>
+                                  <span class="uk-h4 uk-margin-remove"><span class="" uk-tooltip="Wishlist"><a class="icon-p" href=""><i  style="color: black;"class="far fa-heart icon-pi"></i></a></span></span>
+                               </div>
+                            </div>
+                            <p class="uk-margin-small-top"><a href="">Herschel Leather Duffle Bag In Brown Color</a></p>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span style="color: black; margin-left: 10px;">01</span>
+                            <p class="uk-margin-small-top"><a href="">100 &#2547;</a></p>
+                         </div>
+                         <div class="uk-text-center card-b">
+                            <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                               <img src="brandIMG.jpeg" width="100%" height="auto" alt="">
+                               <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+                                  <span class="uk-h4 uk-margin-remove"><span class="" uk-tooltip="Quick View"><a class="icon-p" href=""><i  style="color: black;"class="fas fa-eye icon-pi"></i></a></span></span>
+                                  <span class="uk-h4 uk-margin-remove"><span class="" uk-tooltip="Wishlist"><a class="icon-p" href=""><i  style="color: black;"class="far fa-heart icon-pi"></i></a></span></span>
+                               </div>
+                            </div>
+                            <p class="uk-margin-small-top"><a href="">Herschel Leather Duffle Bag In Brown Color</a></p>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span style="color: black; margin-left: 10px;">01</span>
+                            <p class="uk-margin-small-top"><a href="">100 &#2547;</a></p>
+                         </div>
+                         <div class="uk-text-center card-b">
+                            <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                               <img src="brandIMG.jpeg" width="100%" height="auto" alt="">
+                               <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+                                  <span class="uk-h4 uk-margin-remove"><span class="" uk-tooltip="Quick View"><a class="icon-p" href=""><i  style="color: black;"class="fas fa-eye icon-pi"></i></a></span></span>
+                                  <span class="uk-h4 uk-margin-remove"><span class="" uk-tooltip="Wishlist"><a class="icon-p" href=""><i  style="color: black;"class="far fa-heart icon-pi"></i></a></span></span>
+                               </div>
+                            </div>
+                            <p class="uk-margin-small-top"><a href="">Herschel Leather Duffle Bag In Brown Color</a></p>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span style="color: black; margin-left: 10px;">01</span>
+                            <p class="uk-margin-small-top"><a href="">100 &#2547;</a></p>
+                         </div>
+                         <div class="uk-text-center card-b">
+                            <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                               <img src="brandIMG.jpeg" width="100%" height="auto" alt="">
+                               <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+                                  <span class="uk-h4 uk-margin-remove"><span class="" uk-tooltip="Quick View"><a class="icon-p" href=""><i  style="color: black;"class="fas fa-eye icon-pi"></i></a></span></span>
+                                  <span class="uk-h4 uk-margin-remove"><span class="" uk-tooltip="Wishlist"><a class="icon-p" href=""><i  style="color: black;"class="far fa-heart icon-pi"></i></a></span></span>
+                               </div>
+                            </div>
+                            <p class="uk-margin-small-top"><a href="">Herschel Leather Duffle Bag In Brown Color</a></p>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span style="color: black; margin-left: 10px;">01</span>
+                            <p class="uk-margin-small-top"><a href="">100 &#2547;</a></p>
+                         </div>
+                         <div class="uk-text-center card-b">
+                            <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                               <img src="brandIMG.jpeg" width="100%" height="auto" alt="">
+                               <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+                                  <span class="uk-h4 uk-margin-remove"><span class="" uk-tooltip="Quick View"><a class="icon-p" href=""><i  style="color: black;"class="fas fa-eye icon-pi"></i></a></span></span>
+                                  <span class="uk-h4 uk-margin-remove"><span class="" uk-tooltip="Wishlist"><a class="icon-p" href=""><i  style="color: black;"class="far fa-heart icon-pi"></i></a></span></span>
+                               </div>
+                            </div>
+                            <p class="uk-margin-small-top"><a href="">Herschel Leather Duffle Bag In Brown Color</a></p>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span style="color: black; margin-left: 10px;">01</span>
+                            <p class="uk-margin-small-top"><a href="">100 &#2547;</a></p>
+                         </div>
+                         <div class="uk-text-center card-b">
+                            <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                               <img src="brandIMG.jpeg" width="100%" height="auto" alt="">
+                               <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+                                  <span class="uk-h4 uk-margin-remove"><span class="" uk-tooltip="Quick View"><a class="icon-p" href=""><i  style="color: black;"class="fas fa-eye icon-pi"></i></a></span></span>
+                                  <span class="uk-h4 uk-margin-remove"><span class="" uk-tooltip="Wishlist"><a class="icon-p" href=""><i  style="color: black;"class="far fa-heart icon-pi"></i></a></span></span>
+                               </div>
+                            </div>
+                            <p class="uk-margin-small-top"><a href="">Herschel Leather Duffle Bag In Brown Color</a></p>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span style="color: black; margin-left: 10px;">01</span>
+                            <p class="uk-margin-small-top"><a href="">100 &#2547;</a></p>
+                         </div>
+                         <div class="uk-text-center card-b">
+                            <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                               <img src="brandIMG.jpeg" width="100%" height="auto" alt="">
+                               <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+                                  <span class="uk-h4 uk-margin-remove"><span class="" uk-tooltip="Quick View"><a class="icon-p" href=""><i  style="color: black;"class="fas fa-eye icon-pi"></i></a></span></span>
+                                  <span class="uk-h4 uk-margin-remove"><span class="" uk-tooltip="Wishlist"><a class="icon-p" href=""><i  style="color: black;"class="far fa-heart icon-pi"></i></a></span></span>
+                               </div>
+                            </div>
+                            <p class="uk-margin-small-top"><a href="">Herschel Leather Duffle Bag In Brown Color</a></p>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span style="color: black; margin-left: 10px;">01</span>
+                            <p class="uk-margin-small-top"><a href="">100 &#2547;</a></p>
+                         </div>
+                         <div class="uk-text-center card-b">
+                            <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                               <img src="brandIMG.jpeg" width="100%" height="auto" alt="">
+                               <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+                                  <span class="uk-h4 uk-margin-remove"><span class="" uk-tooltip="Quick View"><a class="icon-p" href=""><i  style="color: black;"class="fas fa-eye icon-pi"></i></a></span></span>
+                                  <span class="uk-h4 uk-margin-remove"><span class="" uk-tooltip="Wishlist"><a class="icon-p" href=""><i  style="color: black;"class="far fa-heart icon-pi"></i></a></span></span>
+                               </div>
+                            </div>
+                            <p class="uk-margin-small-top"><a href="">Herschel Leather Duffle Bag In Brown Color</a></p>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span style="color: black; margin-left: 10px;">01</span>
+                            <p class="uk-margin-small-top"><a href="">100 &#2547;</a></p>
+                         </div>
+                         <div class="uk-text-center card-b">
+                            <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                               <img src="brandIMG.jpeg" width="100%" height="auto" alt="">
+                               <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+                                  <span class="uk-h4 uk-margin-remove"><span class="" uk-tooltip="Quick View"><a class="icon-p" href=""><i  style="color: black;"class="fas fa-eye icon-pi"></i></a></span></span>
+                                  <span class="uk-h4 uk-margin-remove"><span class="" uk-tooltip="Wishlist"><a class="icon-p" href=""><i  style="color: black;"class="far fa-heart icon-pi"></i></a></span></span>
+                               </div>
+                            </div>
+                            <p class="uk-margin-small-top"><a href="">Herschel Leather Duffle Bag In Brown Color</a></p>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span style="color: black; margin-left: 10px;">01</span>
+                            <p class="uk-margin-small-top"><a href="">100 &#2547;</a></p>
+                         </div>
+                         <div class="uk-text-center card-b">
+                           <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                              <img src="brandIMG.jpeg" width="100%" height="auto" alt="">
+                              <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+                                 <span class="uk-h4 uk-margin-remove"><span class="" uk-tooltip="Quick View"><a class="icon-p" href=""><i  style="color: black;"class="fas fa-eye icon-pi"></i></a></span></span>
+                                 <span class="uk-h4 uk-margin-remove"><span class="" uk-tooltip="Wishlist"><a class="icon-p" href=""><i  style="color: black;"class="far fa-heart icon-pi"></i></a></span></span>
+                              </div>
+                           </div>
+                           <p class="uk-margin-small-top"><a href="">Herschel Leather Duffle Bag In Brown Color</a></p>
+                           <span class="fa fa-star checked"></span>
+                           <span class="fa fa-star checked"></span>
+                           <span class="fa fa-star checked"></span>
+                           <span class="fa fa-star"></span>
+                           <span class="fa fa-star"></span>
+                           <span style="color: black; margin-left: 10px;">01</span>
+                           <p class="uk-margin-small-top"><a href="">100 &#2547;</a></p>
                         </div>
-                        <div class="tab-pane" id="about">
-                            <div class="column_view">
-                                <div class="column_view1">
-    
-                                    
-                                   
-                                </div>
-    
-                            
-                        </div>
-                    </div>
+                        <div class="uk-text-center card-b">
+                            <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                               <img src="brandIMG.jpeg" width="100%" height="auto" alt="">
+                               <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+                                  <span class="uk-h4 uk-margin-remove"><span class="" uk-tooltip="Quick View"><a class="icon-p" href=""><i  style="color: black;"class="fas fa-eye icon-pi"></i></a></span></span>
+                                  <span class="uk-h4 uk-margin-remove"><span class="" uk-tooltip="Wishlist"><a class="icon-p" href=""><i  style="color: black;"class="far fa-heart icon-pi"></i></a></span></span>
+                               </div>
+                            </div>
+                            <p class="uk-margin-small-top"><a href="">Herschel Leather Duffle Bag In Brown Color</a></p>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span style="color: black; margin-left: 10px;">01</span>
+                            <p class="uk-margin-small-top"><a href="">100 &#2547;</a></p>
+                         </div>
+                         <div class="uk-text-center card-b">
+                            <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                               <img src="brandIMG.jpeg" width="100%" height="auto" alt="">
+                               <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+                                  <span class="uk-h4 uk-margin-remove"><span class="" uk-tooltip="Quick View"><a class="icon-p" href=""><i  style="color: black;"class="fas fa-eye icon-pi"></i></a></span></span>
+                                  <span class="uk-h4 uk-margin-remove"><span class="" uk-tooltip="Wishlist"><a class="icon-p" href=""><i  style="color: black;"class="far fa-heart icon-pi"></i></a></span></span>
+                               </div>
+                            </div>
+                            <p class="uk-margin-small-top"><a href="">Herschel Leather Duffle Bag In Brown Color</a></p>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span style="color: black; margin-left: 10px;">01</span>
+                            <p class="uk-margin-small-top"><a href="">100 &#2547;</a></p>
+                         </div>
+                         <div class="uk-text-center card-b">
+                            <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                               <img src="brandIMG.jpeg" width="100%" height="auto" alt="">
+                               <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+                                  <span class="uk-h4 uk-margin-remove"><span class="" uk-tooltip="Quick View"><a class="icon-p" href=""><i  style="color: black;"class="fas fa-eye icon-pi"></i></a></span></span>
+                                  <span class="uk-h4 uk-margin-remove"><span class="" uk-tooltip="Wishlist"><a class="icon-p" href=""><i  style="color: black;"class="far fa-heart icon-pi"></i></a></span></span>
+                               </div>
+                            </div>
+                            <p class="uk-margin-small-top"><a href="">Herschel Leather Duffle Bag In Brown Color</a></p>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span style="color: black; margin-left: 10px;">01</span>
+                            <p class="uk-margin-small-top"><a href="">100 &#2547;</a></p>
+                         </div>
+                         <div class="uk-text-center card-b">
+                            <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                               <img src="brandIMG.jpeg" width="100%" height="auto" alt="">
+                               <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+                                  <span class="uk-h4 uk-margin-remove"><span class="" uk-tooltip="Quick View"><a class="icon-p" href=""><i  style="color: black;"class="fas fa-eye icon-pi"></i></a></span></span>
+                                  <span class="uk-h4 uk-margin-remove"><span class="" uk-tooltip="Wishlist"><a class="icon-p" href=""><i  style="color: black;"class="far fa-heart icon-pi"></i></a></span></span>
+                               </div>
+                            </div>
+                            <p class="uk-margin-small-top"><a href="">Herschel Leather Duffle Bag In Brown Color</a></p>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span style="color: black; margin-left: 10px;">01</span>
+                            <p class="uk-margin-small-top"><a href="">100 &#2547;</a></p>
+                         </div>
+                         <div class="uk-text-center card-b">
+                            <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                               <img src="brandIMG.jpeg" width="100%" height="auto" alt="">
+                               <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+                                  <span class="uk-h4 uk-margin-remove"><span class="" uk-tooltip="Quick View"><a class="icon-p" href=""><i  style="color: black;"class="fas fa-eye icon-pi"></i></a></span></span>
+                                  <span class="uk-h4 uk-margin-remove"><span class="" uk-tooltip="Wishlist"><a class="icon-p" href=""><i  style="color: black;"class="far fa-heart icon-pi"></i></a></span></span>
+                               </div>
+                            </div>
+                            <p class="uk-margin-small-top"><a href="">Herschel Leather Duffle Bag In Brown Color</a></p>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span style="color: black; margin-left: 10px;">01</span>
+                            <p class="uk-margin-small-top"><a href="">100 &#2547;</a></p>
+                         </div>
+                         <div class="uk-text-center card-b">
+                            <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                               <img src="brandIMG.jpeg" width="100%" height="auto" alt="">
+                               <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+                                  <span class="uk-h4 uk-margin-remove"><span class="" uk-tooltip="Quick View"><a class="icon-p" href=""><i  style="color: black;"class="fas fa-eye icon-pi"></i></a></span></span>
+                                  <span class="uk-h4 uk-margin-remove"><span class="" uk-tooltip="Wishlist"><a class="icon-p" href=""><i  style="color: black;"class="far fa-heart icon-pi"></i></a></span></span>
+                               </div>
+                            </div>
+                            <p class="uk-margin-small-top"><a href="">Herschel Leather Duffle Bag In Brown Color</a></p>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span style="color: black; margin-left: 10px;">01</span>
+                            <p class="uk-margin-small-top"><a href="">100 &#2547;</a></p>
+                         </div>
+                         <div class="uk-text-center card-b">
+                            <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                               <img src="brandIMG.jpeg" width="100%" height="auto" alt="">
+                               <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+                                  <span class="uk-h4 uk-margin-remove"><span class="" uk-tooltip="Quick View"><a class="icon-p" href=""><i  style="color: black;"class="fas fa-eye icon-pi"></i></a></span></span>
+                                  <span class="uk-h4 uk-margin-remove"><span class="" uk-tooltip="Wishlist"><a class="icon-p" href=""><i  style="color: black;"class="far fa-heart icon-pi"></i></a></span></span>
+                               </div>
+                            </div>
+                            <p class="uk-margin-small-top"><a href="">Herschel Leather Duffle Bag In Brown Color</a></p>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span style="color: black; margin-left: 10px;">01</span>
+                            <p class="uk-margin-small-top"><a href="">100 &#2547;</a></p>
+                         </div>
+                         <div class="uk-text-center card-b">
+                            <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                               <img src="brandIMG.jpeg" width="100%" height="auto" alt="">
+                               <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+                                  <span class="uk-h4 uk-margin-remove"><span class="" uk-tooltip="Quick View"><a class="icon-p" href=""><i  style="color: black;"class="fas fa-eye icon-pi"></i></a></span></span>
+                                  <span class="uk-h4 uk-margin-remove"><span class="" uk-tooltip="Wishlist"><a class="icon-p" href=""><i  style="color: black;"class="far fa-heart icon-pi"></i></a></span></span>
+                               </div>
+                            </div>
+                            <p class="uk-margin-small-top"><a href="">Herschel Leather Duffle Bag In Brown Color</a></p>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span style="color: black; margin-left: 10px;">01</span>
+                            <p class="uk-margin-small-top"><a href="">100 &#2547;</a></p>
+                         </div>
+                         <div class="uk-text-center card-b">
+                            <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                               <img src="brandIMG.jpeg" width="100%" height="auto" alt="">
+                               <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+                                  <span class="uk-h4 uk-margin-remove"><span class="" uk-tooltip="Quick View"><a class="icon-p" href=""><i  style="color: black;"class="fas fa-eye icon-pi"></i></a></span></span>
+                                  <span class="uk-h4 uk-margin-remove"><span class="" uk-tooltip="Wishlist"><a class="icon-p" href=""><i  style="color: black;"class="far fa-heart icon-pi"></i></a></span></span>
+                               </div>
+                            </div>
+                            <p class="uk-margin-small-top"><a href="">Herschel Leather Duffle Bag In Brown Color</a></p>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span style="color: black; margin-left: 10px;">01</span>
+                            <p class="uk-margin-small-top"><a href="">100 &#2547;</a></p>
+                         </div>
+                            </div>
+                         </div>
                     </div>
                 </div>
             </div>
@@ -432,22 +799,17 @@
 
         outputMin.innerHTML = minSlider.value;
         outputMax.innerHTML = maxSlider.value;
+       
 
         minSlider.oninput = function() {
             outputMin.innerHTML = this.value;
+            
         }
 
         maxSlider.oninput = function() {
                 outputMax.innerHTML = this.value;
             }
-            // ////////more
-        function changeName() {
-            if ($("#collapseButton").html() == "View more") {
-                $("#collapseButton").html("View less");
-            } else {
-                $("#collapseButton").html("View more");
-            }
-        }
+            
         //sort_price
         function mySort() {
             document.getElementById("sortdown").classList.toggle("show");
