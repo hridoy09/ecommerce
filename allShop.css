@@ -23,14 +23,26 @@ a {
     margin: 0px!important;
     padding: 0px!important;
 }
+.navBtn{
+    background-color: #00000000;
+}
 .side-nav{
-    display: none;
+    width: 100%;
+    padding: 0px !important;
+    margin: 0px !important;
 }
-.SideNav-category:hover + .side-nav{
-    display: block;
+.navBtn{
+    background-color: #00000000;
+    color: white !important;
+    font-size: 15px !important;
 }
-
-
+.sideNav-ul{
+    width: 100%;
+    
+}
+.sideNav-Row{
+    padding: 0px !important;
+}
 .category_home {
     width: 95%;
     margin: auto;
