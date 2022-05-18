@@ -258,7 +258,7 @@ background: linear-gradient(90deg, rgba(94,37,150,1) 35%, rgba(122,21,222,1) 100
     border-radius: 50%;
 
 }
-.icon-p:hover{
+.icon-p:hover {
 	    padding: 7px 10px;
     background: black;
     border-radius: 50%;
@@ -346,4 +346,18 @@ font-family: 'Noto Serif', serif;
 }
 .side-bar>a>li{
   padding: 15px 0px;
+}
+.uk-search-default{
+  background: white;
+  width: 100%!important;
+}
+.uk-search-icon-flip{
+  background:linear-gradient(90deg, rgba(94,37,150,1) 35%, rgba(122,21,222,1) 100%);
+  color: white!important;
+}
+.fixed-footer{
+  display: none;
+}
+.uk-offcanvas-bar{
+ width: 380px!important;
 }

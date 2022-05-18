@@ -34,14 +34,35 @@
 /*	.cententSec2-header>button{
 	 margin-top:10px;
 }*/
+.fixed-footer{
+	position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background: white;
+ 
+  display: block;
 }
-@media only screen and (max-width: 540px){
+.bottom-icon {
+	color: black;
+	font-size: 30px;
+}
+}
+@media only screen and (max-width: 545px){
 	.cententSec2-header>button{
 	 margin-top:0px;
+}
+.marquee>span{
+	padding: 7px 5px!important;
 }
 }
 @media only screen and (max-width: 420px){
 	.cententSec2-header>button{
 	 margin-top:0px;
+}
+.marquee>span{
+	padding: 10px 5px!important;
+	line-height: 1.3;
+	font-size: 15px;
 }
 }
