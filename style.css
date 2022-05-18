@@ -217,7 +217,7 @@ background: linear-gradient(90deg, rgba(94,37,150,1) 35%, rgba(122,21,222,1) 100
 .grid-store{
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(170px,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(160px,1fr));
   grid-gap: 20px;
 }
 
@@ -350,6 +350,10 @@ font-family: 'Noto Serif', serif;
 .uk-search-default{
   background: white;
   width: 100%!important;
+
+}
+.uk-search-input{
+  color: black!important;
 }
 .uk-search-icon-flip{
   background:linear-gradient(90deg, rgba(94,37,150,1) 35%, rgba(122,21,222,1) 100%);
