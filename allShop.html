@@ -143,8 +143,10 @@
                   
                </ul>
             </div>
-            <div class="col-3 col-sm-6">
-               <button class="togle-btn" type="button" uk-toggle="target: #offcanvas-usage"><i class="fas fa-bars"></i></button>
+         </div>
+         <div class="row mobile-nav" style="background-color: whitesmoke; display: none;" >
+              <div class="col-6 col-sm-6">
+               <button class="togle-btn" style="font-size: 18px;color: black;" type="button" uk-toggle="target: #offcanvas-usage"><i class="fas fa-filter"></i>filter <img style="float: right;" src="https://img.icons8.com/ios-glyphs/30/000000/expand-arrow--v1.png"/></button>
                
                <div id="offcanvas-usage" uk-offcanvas>
                   <div class="uk-offcanvas-bar" style="background:white;color:black;">
@@ -286,16 +288,24 @@
                   </div>
                </div>
             </div>
-            <div class="col-9 col-sm-6">
-               <div class="uk-margin">
-                  <form class="uk-search uk-search-default">
-                     <a href="" class="uk-search-icon-flip" uk-search-icon></a>
-                     <input class="uk-search-input" type="search" placeholder="Search">
-                  </form>
-               </div>
+            <div class="col-6 col-sm-6">
+                  <div class="SortingNav">
+                                <button  class="togle-btn" style="font-size: 18px;color: black;" type="button">Default sorting
+                                        <img style="float: right;" src="https://img.icons8.com/ios-glyphs/30/000000/expand-arrow--v1.png"/>
+                                </button>
+                                <div uk-dropdown="pos : bottom-center"
+                                class="navSort">
+                             <ul class="uk-nav uk-dropdown-nav">
+                                <li class="uk-active"><a href="#">Default sorting</a></li>
+                                <li><a href="#modal-center"  uk-toggle>Online Location Traking</a></li>
+                                <li><a href="#">sort by Latest</a></li>
+                                <li><a href="#">Sort by price:low to high</a></li>
+                                <li><a href="#">Sort by price:high to low</a></li>
+                            </ul>
+                                </div>
+                            </div>
+                            
             </div>
-            
-            
          </div>
          <!-- <div class="side-nav">
             <div class="row">
@@ -469,16 +479,16 @@
                         <div class="priceSlider">
                             <h4>BY PRICE</h4>
                             <div class="min-max-range">
-                                <input type="range" min="0"  max="5000" value="2000" class="range" id="min">
-                                <input type="range" min="5001" max="10000" value="8000" class="range" id="max">
+                                <input type="range" min="0"  max="5000" value="2000" class="range" id="min1">
+                                <input type="range" min="5001" max="10000" value="8000" class="range" id="max1">
                             </div>
                             <div class="min-max">
                                 
                                 <div class="min">
-                                    <span>Price</span><span id="min-value">&#2547;</span>
+                                    <span>Price</span><span id="min-value1"></span>
                                 </div>
                                 <div class="max">
-                                    <span id="max-value">&#2547;</span>
+                                    <span id="max-value1"></span>
                                 </div>
                             </div>
                             <button class="btn filterBtn">
@@ -528,14 +538,14 @@
                                 <button class="uk-button uk-button-default uk-text-left SortingBtn" type="button">Default sorting
                                         <img style="float: right;" src="https://img.icons8.com/ios-glyphs/30/000000/expand-arrow--v1.png"/>
                                 </button>
-                                <div uk-dropdown="pos : bottom-center"
+                                <div uk-dropdown="pos : bottom-center duration:5; delay-hide:5;"
                                 class="navSort">
                             <ul class="uk-nav uk-dropdown-nav">
-                                <li class="uk-active"><a href="#">Active</a></li>
-                                <li><a href="#">Item</a></li>
-                                <li><a href="#">Item</a></li>
-                                <li><a href="#">Item</a></li>
-                                <li><a href="#">Item</a></li>
+                                <li class="uk-active"><a href="#">Default sorting</a></li>
+                                <li><a href="#modal-center"  uk-toggle>Online Location Traking</a></li>
+                                <li><a href="#">sort by Latest</a></li>
+                                <li><a href="#">Sort by price:low to high</a></li>
+                                <li><a href="#">Sort by price:high to low</a></li>
                             </ul>
                                 </div>
                             </div>
@@ -1131,6 +1141,28 @@
                
             </div>
 </footer>
+
+
+<!-- popup modal -->
+<div id="modal-center" class="uk-flex-top" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="row text-center">
+             <div class="col-12 col-sm-6 col-lg-8">
+            <input type="" class="form-control" placeholder="Enter Your LOcation" name="">
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4 btn-m">
+           <button class="btn btn-success">Delivery</button><span style="font-size: 20px; padding: 0px 20px;">or</span><button class="btn btn-success">Pic-up</button>
+        </div>
+        </div>
+      
+
+        
+
+
+    </div>
+</div>
     </div>
         </body>
 
@@ -1205,6 +1237,26 @@
                 outputMax.innerHTML = this.value;
             }
             
+
+                  // price////////////////////
+        var minSlider = document.getElementById('min1');
+        var maxSlider = document.getElementById('max1');
+
+        var outputMin = document.getElementById('min-value1');
+        var outputMax = document.getElementById('max-value1');
+
+        outputMin.innerHTML = minSlider.value;
+        outputMax.innerHTML = maxSlider.value;
+       
+
+        minSlider.oninput = function() {
+            outputMin.innerHTML = this.value;
+            
+        }
+
+        maxSlider.oninput = function() {
+                outputMax.innerHTML = this.value;
+            }
         //sort_price
         function mySort() {
             document.getElementById("sortdown").classList.toggle("show");

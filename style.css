@@ -60,7 +60,7 @@ form.example button {
     float: left;
     width: 20%;
     padding: 10px;
-    background: #5E2596;
+    background: #6ac628;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     color: white;
@@ -86,7 +86,7 @@ form.example::after {
 }
 
 .top-icon>a {
-    color: #5E2596!important;
+    color: #6ac628!important;
 }
 
 .top-icon>a>li {
@@ -133,7 +133,7 @@ form.example::after {
 	display: flex;
 	align-items: center;
 	height: 50px;
-	border:1px solid  #5E2596;
+	border:1px solid  #6ac628;
 	border-radius: 5px;
 
 }
@@ -165,7 +165,7 @@ form.example::after {
 .cententSec2-header>h3{
   display: inline-block;
   margin: 0px;
-  color: rgb(94,37,150);
+  color: #6ac628;
   line-height: 2.2;
   font-family: 'Cormorant Garamond', serif;
 font-family: 'Noto Serif', serif;
@@ -176,10 +176,10 @@ font-family: 'Noto Serif', serif;
   margin-top: 12px;
   padding: 5px 10px;
   border:none;
-  background: rgb(94,37,150);
+  
   border-radius: 5px;
   color:white!important;
-background: linear-gradient(90deg, rgba(94,37,150,1) 35%, rgba(122,21,222,1) 100%);
+background: #6ac628;
   color: rgb(2, 2, 2);
 
 }
@@ -356,7 +356,7 @@ font-family: 'Noto Serif', serif;
   color: black!important;
 }
 .uk-search-icon-flip{
-  background:linear-gradient(90deg, rgba(94,37,150,1) 35%, rgba(122,21,222,1) 100%);
+  background:#6ac628;
   color: white!important;
 }
 .fixed-footer{
@@ -364,4 +364,7 @@ font-family: 'Noto Serif', serif;
 }
 .uk-offcanvas-bar{
  width: 380px!important;
+}
+.uk-modal-body{
+  width: 70%!important;
 }

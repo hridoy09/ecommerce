@@ -31,8 +31,14 @@
 	.cententSec2-header>h3{
 	font-size: 3vw;
 }
+.uk-modal-body{
+  width: 100%!important;
+}
 .Related_Categories{
 	display: none;
+}
+.category_name_sec{
+	display: none!important;
 }
 /*	.cententSec2-header>button{
 	 margin-top:10px;
@@ -54,6 +60,9 @@
 @media only screen and (max-width: 545px){
 	.cententSec2-header>button{
 	 margin-top:0px;
+}
+.btn-m{
+	margin-top: 20px;
 }
 .footer-height{
 	height: 1030px!important;
