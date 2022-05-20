@@ -34,17 +34,53 @@
 	.cententSec2-header>h3{
 	font-size: 3vw;
 }
+.uk-modal-body{
+  width: 100%!important;
+}
+.Related_Categories{
+	display: none;
+}
+.category_name_sec{
+	display: none!important;
+}
 /*	.cententSec2-header>button{
 	 margin-top:10px;
 }*/
+.fixed-footer{
+	position: fixed;
+  bottom: -3px;
+  width: 100%;
+  height: 60px;
+  background: white;
+ 
+  display: block;
 }
-@media only screen and (max-width: 540px){
+.bottom-icon {
+	color: black;
+	font-size: 30px;
+}
+}
+@media only screen and (max-width: 545px){
 	.cententSec2-header>button{
 	 margin-top:0px;
+}
+.btn-m{
+	margin-top: 20px;
+}
+.footer-height{
+	height: 1030px!important;
+}
+.marquee>span{
+	padding: 7px 5px!important;
 }
 }
 @media only screen and (max-width: 420px){
 	.cententSec2-header>button{
 	 margin-top:0px;
+}
+.marquee>span{
+	padding: 10px 5px!important;
+	line-height: 1.3;
+	font-size: 15px;
 }
 }

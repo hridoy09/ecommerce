@@ -118,6 +118,195 @@
               
             </div>
         </div>
+           <div class="row mobile-nav" style="background-color: #6AC628; display: none;">
+            
+            <div class="col-3">
+               <img src="Logo-01-gjjghfukgj.png.webp" />
+            </div>
+            <div class="col-9">
+               <ul class="top-icon">
+                  <a href="">
+                     <li><i class="far fa-heart"></i><sub>0</sub></li>
+                  </a>
+                  <a href="">
+                     <li><i class="fa fa-shopping-bag" aria-hidden="true"></i><sub>0</sub></li>
+                  </a>
+                  <a href="">
+                     <li><i class="fas fa-user"></i></li>
+                  </a>
+                  <a href="">
+                     <li><i class="fas fa-dollar-sign"></i></li>
+                  </a>
+                  <a href="">
+                     <li><i class="fas fa-language"></i></li>
+                  </a>
+                  
+               </ul>
+            </div>
+         </div>
+         <div class="row mobile-nav" style="background-color: whitesmoke; display: none;" >
+              <div class="col-6 col-sm-6">
+               <button class="togle-btn" style="font-size: 18px;color: black;" type="button" uk-toggle="target: #offcanvas-usage"><i class="fas fa-filter"></i>filter <img style="float: right;" src="https://img.icons8.com/ios-glyphs/30/000000/expand-arrow--v1.png"/></button>
+               
+               <div id="offcanvas-usage" uk-offcanvas>
+                  <div class="uk-offcanvas-bar" style="background:white;color:black;">
+                     <button class="uk-offcanvas-close" style="color: black;" type="button" uk-close></button>
+                      <div class="Related_Categoriesmobile col-lg-2">
+                    <div class="cotegories-name">
+                        <h5 style="color:black;">
+                            CATEGORIES
+                        </h5>
+                        <div class="cotegories-name2 ">
+                            <ul>
+                                <a class="text-nowrap" href="#">
+                                    <li>Electrical & Accessories</li>
+                                </a>
+                                <a href="#">
+                                    <li>Bizzle</li>
+                                </a>
+                                <a href="#">
+                                    <li>Commercial</li>
+                                </a>
+                                <a href="#">
+                                    <li>Computer & Accessories</li>
+                                </a>
+                                <a href="#">
+                                    <li>Electronics & Accessories</li>
+                                </a>
+                                <a href="#">
+                                    <li>Fashions & Style</li>
+                                </a>
+                                <a href="#">
+                                    <li>Furniture</li>
+                                </a>
+                                <a href="#">
+                                    <li>Gift</li>
+                                </a>
+                                <a href="#">
+                                    <li>Groceries</li>
+                                </a>
+                                <a href="#">
+                                    <li>Home Appliance</li>
+                                </a>
+                                <a href="#">
+                                    <li>Life Style</li>
+                                </a>
+                                <a href="#">
+                                    <li>Pharmacy</li>
+                                </a>
+                                <a class="text-nowrap" href="#">
+                                    <li>Service & Others</li>
+                                </a>
+                                <a href="#">
+                                    <li>Smart Phone</li>
+                                </a>
+                                <a class="text-nowrap" href="#">
+                                    <li>Smart TV & Android TV</li>
+                                </a>
+                                <a href="#">
+                                    <li>Speaker</li>
+                                </a>
+                                <a href="#">
+                                    <li>Upload Order</li>
+                                </a>
+                                <a href="#">
+                                    <li>Wholsale</li>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="brandSec">
+                        <h5 style="margin-top:20px;color:black;">BY BRANDS</h5>
+                        <form style="margin:15px 0px 15px 0px ; background-color: white;" class="uk-search uk-search-default">
+                            <span class="uk-search-icon-flip" uk-search-icon></span>
+                            <input class="uk-search-input" type="search" placeholder="Search">
+                        </form>
+                        <div class="Related_Categories_brand">
+                            
+                            <p><input type="checkbox" name="check" onclick="onlybrand(this)"> <span>Brand</span> </p>
+                            <p><input type="checkbox" name="check" onclick="onlybrand(this)"> <span>Brand</span> </p>
+                            <p><input type="checkbox" name="check" onclick="onlybrand(this)"> <span>Brand</span> </p>
+                            <p><input type="checkbox" name="check" onclick="onlybrand(this)"> <span>Brand</span> </p>
+                            <p><input type="checkbox" name="check" onclick="onlybrand(this)"> <span>Brand</span> </p>
+                            <p><input type="checkbox" name="check" onclick="onlybrand(this)"> <span>Brand</span> </p>
+                            <p><input type="checkbox" name="check" onclick="onlybrand(this)"> <span>Brand</span> </p>
+                            <p><input type="checkbox" name="check" onclick="onlybrand(this)"> <span>Brand</span> </p>
+                            <p><input type="checkbox" name="check" onclick="onlybrand(this)"> <span>Brand</span> </p>
+                            <p><input type="checkbox" name="check" onclick="onlybrand(this)"> <span>Brand</span> </p>
+                            <p><input type="checkbox" name="check" onclick="onlybrand(this)"> <span>Brand</span> </p>
+        
+                        </div>
+                        <hr style="color: rgb(92, 92, 92); margin-top:30px;">
+                        <div class="priceSlider">
+                            <h4 style="color:black;">BY PRICE</h4>
+                            <div class="min-max-range">
+                                <input type="range" min="0"  max="5000" value="2000" class="range" id="min">
+                                <input type="range" min="5001" max="10000" value="8000" class="range" id="max">
+                            </div>
+                            <div class="min-max">
+                                
+                                <div class="min">
+                                    <span>Price</span><span id="min-value">&#2547;</span>
+                                </div>
+                                <div class="max">
+                                    <span id="max-value">&#2547;</span>
+                                </div>
+                            </div>
+                            <button class="btn filterBtn">
+                                <p class="filterBtn-text">filter</p>
+                            </button>
+                            <div style="clear: both;"></div>
+    
+                        </div>
+                        <hr style="color: rgb(92, 92, 92); margin-top:30px;">
+                        <div class="color_family">
+                            <p style="color: black;">BY COLOR</p>
+                            <p><input type="checkbox" name="color" onclick="onlycolor(this)"> <span>color</span> </p>
+                            <p><input type="checkbox" name="color" onclick="onlycolor(this)"> <span>color</span> </p>
+                            <p><input type="checkbox" name="color" onclick="onlycolor(this)"> <span>color</span> </p>
+                            <p><input type="checkbox" name="color" onclick="onlycolor(this)"> <span>color</span> </p>
+                            <p><input type="checkbox" name="color" onclick="onlycolor(this)"> <span>color</span> </p>
+                            <p><input type="checkbox" name="color" onclick="onlycolor(this)"> <span>color</span> </p>
+                            <p><input type="checkbox" name="color" onclick="onlycolor(this)"> <span>color</span> </p>
+                            <p><input type="checkbox" name="color" onclick="onlycolor(this)"> <span>color</span> </p>
+                            <p><input type="checkbox" name="color" onclick="onlycolor(this)"> <span>color</span> </p>
+                            <p><input type="checkbox" name="color" onclick="onlycolor(this)"> <span>color</span> </p>
+                            <p><input type="checkbox" name="color" onclick="onlycolor(this)"> <span>color</span> </p>
+                            <p><input type="checkbox" name="color" onclick="onlycolor(this)"> <span>color</span> </p>
+                            <p><input type="checkbox" name="color" onclick="onlycolor(this)"> <span>color</span> </p>
+                            <p><input type="checkbox" name="color" onclick="onlycolor(this)"> <span>color</span> </p>
+                            <p><input type="checkbox" name="color" onclick="onlycolor(this)"> <span>color</span> </p>
+                            <p><input type="checkbox" name="color" onclick="onlycolor(this)"> <span>color</span> </p>
+                            <div id="collapsible" class="collapse">
+                                
+                            </div>
+        
+                        </div> 
+                    </div>
+                      
+                </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-6 col-sm-6">
+                  <div class="SortingNav">
+                                <button  class="togle-btn" style="font-size: 18px;color: black;" type="button">Default sorting
+                                        <img style="float: right;" src="https://img.icons8.com/ios-glyphs/30/000000/expand-arrow--v1.png"/>
+                                </button>
+                                <div uk-dropdown="pos : bottom-center"
+                                class="navSort">
+                             <ul class="uk-nav uk-dropdown-nav">
+                                <li class="uk-active"><a href="#">Default sorting</a></li>
+                                <li><a href="#modal-center"  uk-toggle>Online Location Traking</a></li>
+                                <li><a href="#">sort by Latest</a></li>
+                                <li><a href="#">Sort by price:low to high</a></li>
+                                <li><a href="#">Sort by price:high to low</a></li>
+                            </ul>
+                                </div>
+                            </div>
+                            
+            </div>
+         </div>
          <!-- <div class="side-nav">
             <div class="row">
                <div class="col-3 sideNav-ul">
@@ -290,16 +479,16 @@
                         <div class="priceSlider">
                             <h4>BY PRICE</h4>
                             <div class="min-max-range">
-                                <input type="range" min="0"  max="5000" value="2000" class="range" id="min">
-                                <input type="range" min="5001" max="10000" value="8000" class="range" id="max">
+                                <input type="range" min="0"  max="5000" value="2000" class="range" id="min1">
+                                <input type="range" min="5001" max="10000" value="8000" class="range" id="max1">
                             </div>
                             <div class="min-max">
                                 
                                 <div class="min">
-                                    <span>Price</span><span id="min-value">&#2547;</span>
+                                    <span>Price</span><span id="min-value1"></span>
                                 </div>
                                 <div class="max">
-                                    <span id="max-value">&#2547;</span>
+                                    <span id="max-value1"></span>
                                 </div>
                             </div>
                             <button class="btn filterBtn">
@@ -340,7 +529,7 @@
                 <div class="category_sec_all-2 col-lg-9 col-sm-12 col-md-12">
                     <div class="category_name_sec row">
                         <div class="category_name_sec-1 col-6">
-                            <p style="font-weight:bold;" >42 <span style="font-weight: normal;">Products found</span>
+                            <p style="font-weight:bold;" >Wholsale/ <span style="font-weight: normal;"> Commercial</span>
                                 
                             </p>
                         </div>
@@ -349,14 +538,14 @@
                                 <button class="uk-button uk-button-default uk-text-left SortingBtn" type="button">Default sorting
                                         <img style="float: right;" src="https://img.icons8.com/ios-glyphs/30/000000/expand-arrow--v1.png"/>
                                 </button>
-                                <div uk-dropdown="pos : bottom-center"
+                                <div uk-dropdown="pos : bottom-center duration:5; delay-hide:5;"
                                 class="navSort">
                             <ul class="uk-nav uk-dropdown-nav">
-                                <li class="uk-active"><a href="#">Active</a></li>
-                                <li><a href="#">Item</a></li>
-                                <li><a href="#">Item</a></li>
-                                <li><a href="#">Item</a></li>
-                                <li><a href="#">Item</a></li>
+                                <li class="uk-active"><a href="#">Default sorting</a></li>
+                                <li><a href="#modal-center"  uk-toggle>Online Location Traking</a></li>
+                                <li><a href="#">sort by Latest</a></li>
+                                <li><a href="#">Sort by price:low to high</a></li>
+                                <li><a href="#">Sort by price:high to low</a></li>
                             </ul>
                                 </div>
                             </div>
@@ -800,6 +989,180 @@
             </div>
     
         </div>
+                 <footer class="footer-height" style="background-color: #E8E7E7; margin-top: 50px;">
+            <div class="row">
+               <div class="col-6 col-sm-6 col-lg-3 text-center">
+                  <h5 class="footer-heading">
+                     get in touch
+                  </h5>
+                  <p class="footer-text">
+                     Call us 24/7 <br>
+                     Phone : +88001642-391588, +8801717-462865 <br>
+                     House #30, purana paltan (ground-floor), <br>
+                     Dhaka -1000, Bangladesh. <br>
+                     Email: Support@online.welkinia.com
+                  </p>
+               </div>
+               <div class="col-6 col-sm-6 col-lg-2 text-center">
+                  <h5 class="footer-heading">
+                     Quick Links
+                  </h5>
+                  <div class="footer-link">
+                     <a href="#"class="footer-link-a"> My account</a>
+                     <a href="#" class="footer-link-a">Privacy Policy</a>
+                     <a href="#" class="footer-link-a">Purchasing Policy</a>
+                     <a href="#" class="footer-link-a">Term & Conditions</a>
+                     <a href="#" class="footer-link-a">Frequently Asked Question</a>
+                  </div>
+               </div>
+               <div class="col-6 col-sm-6 col-lg-2 text-center">
+                  <h5 class="footer-heading">
+                     view us
+                  </h5>
+                  <div class="footer-link">
+                     <a href="#"class="footer-link-a" >My account</a>
+                     <a href="#"class="footer-link-a" >About Us</a>
+                     <a href="#"class="footer-link-a" >Contact</a>
+                     <a href="#"class="footer-link-a" >Order Tracking</a>
+                     <a href="#"class="footer-link-a" >Shipment Tracking</a>
+                  </div>
+               </div>
+               <div class="col-6 col-sm-6 col-lg-2 text-center">
+                  <h5 class="footer-heading">
+                     Menu
+                  </h5>
+                  <div class="footer-link">
+                     <a href="#"class="footer-link-a" >All Shop</a>
+                     <a href="#"class="footer-link-a" >Retail</a>
+                     <a href="#"class="footer-link-a" >Wholesale</a>
+                     <a href="#"class="footer-link-a" >Commercial</a>
+                     <a href="#"class="footer-link-a" >News Feed</a>
+                  </div>
+               </div>
+               <div class="col-12 col-lg-3 text-lg-left text-sm-center text-center footer-4">
+                  <h5 class="footer-heading">
+                     Download App
+                  </h5>
+                  <div class="footer-content">
+                     <img src="t1.jpeg" alt="">
+                     <p style="padding: 30px 0px 20px 0px;margin: 0px; ">We Using Safe Payment For</p>
+                     <img style="padding: 30px 0px 20px 0px;" src="BD-payment-method.jpg" alt="">
+                  </div>
+               </div>
+            </div>
+         </footer>
+         <footer class="fixed-footer">
+            <div class="row" >
+               <div class="col-3">
+                  <a class="bottom-icon"  href="
+                  "><i  class="fas fa-home"></i></a>
+               </div>
+                <div class="col-3">
+         
+                     <button style="padding-top: 5px;"  class="togle-btn" type="button" uk-toggle="target: #offcanvas-usage2"><i  class="fas fa-bars bottom-icon"></i></button>
+
+
+<div id="offcanvas-usage2" uk-offcanvas  >
+    <div class="uk-offcanvas-bar" style="background:white;color:black;">
+
+        <button  style="color: black!important;"class="uk-offcanvas-close" type="button" uk-close></button>
+
+        <ul class="  justify-content-around my-auto side-bar">
+                          <a href="#">
+                        <li><span><img src="https://img.icons8.com/external-smashingstocks-circular-smashing-stocks/32/000000/external-grocery-shopping-and-commerce-activities-smashingstocks-circular-smashing-stocks.png"/></span> Groceries <span class="sideNav-span"><i class="fa fa-angle-right" aria-hidden="true"></i></span></li>
+                     </a>
+                     <a href="#">
+                        <li><span><img src="https://img.icons8.com/external-smashingstocks-circular-smashing-stocks/32/000000/external-grocery-shopping-and-commerce-activities-smashingstocks-circular-smashing-stocks.png"/></span> Home Appliance
+                           <span class="sideNav-span"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                        </li>
+                     </a>
+                     <a href="#">
+                        <li><span><img src="https://img.icons8.com/external-smashingstocks-circular-smashing-stocks/32/000000/external-grocery-shopping-and-commerce-activities-smashingstocks-circular-smashing-stocks.png"/></span> Electronics & Accessories
+                           <span class="sideNav-span"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                        </li>
+                     </a>
+                     <a href="#">
+                        <li><span><img src="https://img.icons8.com/external-smashingstocks-circular-smashing-stocks/32/000000/external-grocery-shopping-and-commerce-activities-smashingstocks-circular-smashing-stocks.png"/></span> Electrical & Accessories
+                           <span class="sideNav-span"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                        </li>
+                     </a>
+                     <a href="#">
+                        <li><span><img src="https://img.icons8.com/external-smashingstocks-circular-smashing-stocks/32/000000/external-grocery-shopping-and-commerce-activities-smashingstocks-circular-smashing-stocks.png"/></span> Computer & Accessories
+                           <span class="sideNav-span"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                        </li>
+                     </a>
+                     <a href="#">
+                        <li><span><img src="https://img.icons8.com/external-smashingstocks-circular-smashing-stocks/32/000000/external-grocery-shopping-and-commerce-activities-smashingstocks-circular-smashing-stocks.png"/></span> Smart TV & Android TV
+                           <span class="sideNav-span"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                        </li>
+                     </a>
+                     <a href="#">
+                        <li><span><img src="https://img.icons8.com/external-smashingstocks-circular-smashing-stocks/32/000000/external-grocery-shopping-and-commerce-activities-smashingstocks-circular-smashing-stocks.png"/></span> Pharmacy <span class="sideNav-span"><i class="fa fa-angle-right" aria-hidden="true"></i></span></li>
+                     </a>
+                     <a href="#">
+                        <li><span><img src="https://img.icons8.com/external-smashingstocks-circular-smashing-stocks/32/000000/external-grocery-shopping-and-commerce-activities-smashingstocks-circular-smashing-stocks.png"/></span> Furniture <span class="sideNav-span"><i class="fa fa-angle-right" aria-hidden="true"></i></span></li>
+                     </a>
+                     <a href="#">
+                        <li><span><img src="https://img.icons8.com/external-smashingstocks-circular-smashing-stocks/32/000000/external-grocery-shopping-and-commerce-activities-smashingstocks-circular-smashing-stocks.png"/></span> Smart Phone <span class="sideNav-span"><i class="fa fa-angle-right" aria-hidden="true"></i></span></li>
+                     </a>
+                     <a href="#">
+                        <li><span><img src="https://img.icons8.com/external-smashingstocks-circular-smashing-stocks/32/000000/external-grocery-shopping-and-commerce-activities-smashingstocks-circular-smashing-stocks.png"/></span> Fashions & Style
+                           <span class="sideNav-span"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                        </li>
+                     </a>
+                     <a href="#">
+                        <li><span><img src="https://img.icons8.com/external-smashingstocks-circular-smashing-stocks/32/000000/external-grocery-shopping-and-commerce-activities-smashingstocks-circular-smashing-stocks.png"/></span> Speaker <span class="sideNav-span"><i class="fa fa-angle-right" aria-hidden="true"></i></span></li>
+                     </a>
+                     <a href="#">
+                        <li><span><img src="https://img.icons8.com/external-smashingstocks-circular-smashing-stocks/32/000000/external-grocery-shopping-and-commerce-activities-smashingstocks-circular-smashing-stocks.png"/></span> Life Style <span class="sideNav-span"><i class="fa fa-angle-right" aria-hidden="true"></i></span></li>
+                     </a>
+                     <a href="#">
+                        <li><span><img src="https://img.icons8.com/external-smashingstocks-circular-smashing-stocks/32/000000/external-grocery-shopping-and-commerce-activities-smashingstocks-circular-smashing-stocks.png"/></span> Service & Others
+                           <span class="sideNav-span"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                        </li>
+                     </a>
+                  </ul>
+
+
+    </div>
+</div>
+               </div>
+               <div class="col-3" >
+                  <a class="bottom-icon"  href="">
+                       <sup>0</sup> <i class="far fa-heart"></i>
+                     </a>
+                    
+               </div>
+                <div class="col-3">
+                   <a class="bottom-icon"  href="">
+                      <sup>0</sup>  <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                     </a>
+               </div>
+               
+            </div>
+</footer>
+
+
+<!-- popup modal -->
+<div id="modal-center" class="uk-flex-top" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="row text-center">
+             <div class="col-12 col-sm-6 col-lg-8">
+            <input type="" class="form-control" placeholder="Enter Your LOcation" name="">
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4 btn-m">
+           <button class="btn btn-success">Delivery</button><span style="font-size: 20px; padding: 0px 20px;">or</span><button class="btn btn-success">Pic-up</button>
+        </div>
+        </div>
+      
+
+        
+
+
+    </div>
+</div>
     </div>
         </body>
 
@@ -874,6 +1237,26 @@
                 outputMax.innerHTML = this.value;
             }
             
+
+                  // price////////////////////
+        var minSlider = document.getElementById('min1');
+        var maxSlider = document.getElementById('max1');
+
+        var outputMin = document.getElementById('min-value1');
+        var outputMax = document.getElementById('max-value1');
+
+        outputMin.innerHTML = minSlider.value;
+        outputMax.innerHTML = maxSlider.value;
+       
+
+        minSlider.oninput = function() {
+            outputMin.innerHTML = this.value;
+            
+        }
+
+        maxSlider.oninput = function() {
+                outputMax.innerHTML = this.value;
+            }
         //sort_price
         function mySort() {
             document.getElementById("sortdown").classList.toggle("show");
