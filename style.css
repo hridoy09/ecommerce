@@ -1,0 +1,63 @@
+.example {
+    outline: 0px dotted #333!important;
+}
+.container-fluid{
+	margin: 0px!important;
+	padding:0px!important;
+}
+.row{
+	margin: 0px!important ;
+	padding:12px 0px!important;
+}
+.top-nav{
+background-color: #6AC628;
+height: 55px;
+}
+.top-contact{
+	margin: 0px;
+	padding: 0px;
+	color: white;
+}
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+  outline: 0px dotted #333!important;
+
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.top-icon{
+	display:flex;
+	justify-content: end;
+}
+.top-icon li{
+	padding: 0px 10px;
+	list-style: none;
+
+}
