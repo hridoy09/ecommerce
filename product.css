@@ -707,3 +707,6 @@ input[type='radio']:before {
 .nav-link:focus, .nav-link:hover {
     color: #6ac628!important;
 }
+.table{
+    width: 60%!important;
+}

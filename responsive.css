@@ -43,6 +43,9 @@
 .category_name_sec{
 	display: none!important;
 }
+.table{
+	width: 100%!important;
+}
 /*	.cententSec2-header>button{
 	 margin-top:10px;
 }*/
